@@ -1,0 +1,154 @@
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.left {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 9rem 4rem;
+    
+}
+
+.left h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.left h2 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+
+.left p {
+    font-size: 1.4rem;
+    line-height: 50px;
+    color: #8193b2 !important;
+}
+
+.left a {
+    border: 1px solid white;
+    width: 11rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.left a svg {
+    font-size: 26px;
+}
+
+.left a:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.right {
+    flex-basis: 40%;
+}
+
+.right img {
+    width: 100%;
+}
+
+.skills-container {
+    width: 50%;
+    margin: auto;
+}
+
+.thumbs {
+    display: none !important;
+}
+.carousel-slider p{
+    display: none !important;
+}
+.skills-container h1 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    background: white;
+    padding: 1rem;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:1000px) {
+    .left {
+        padding: 3rem !important;
+    }
+
+    .left h1 {
+        font-size: 3rem !important;
+    }
+
+    .left h2 {
+        font-size: 2rem !important;
+    }
+    .skills-container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .first-section {
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .left a {
+        margin: 1rem auto !important;
+    }
+
+    .left h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .left h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .right img {
+        width: 70% !important;
+    }
+    .skills-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .skills-container {
+        width: 95%;
+    }
+}

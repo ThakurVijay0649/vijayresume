@@ -1,0 +1,123 @@
+.contact {
+    margin-top: 3rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../../images/contactbg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+
+.contact h1 {
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.contact form {
+    width: 60rem;
+    padding: 1rem;
+    box-shadow: 0 0 0 1px #000, 0 30px 30px rgba(90, 78, 78, 0.5), 0 15px 15px rgba(0, 0, 0, 0.6), 0 10px 8px rgba(0, 0, 0, 0.5), 0 4px 4px rgba(0, 0, 0, 0.4), 0 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid white;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.input-label label {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.timeline-project{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.timeline-project a{
+    text-decoration: none;
+}
+
+legend{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold
+}
+
+form button, .adminButton , .timeline-project a{
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.adminButton{
+    width: 60% !important;
+}
+
+.adminButton:hover{
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    color: black;
+}
+
+form button:hover {
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    color: black;
+}
+
+.login {
+    padding-bottom: 10rem;
+}
+
+@media screen and (max-width:980px) {
+    form {
+        width: 97% !important;
+    }
+    .adminButton{
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contact h1 {
+        font-size: 2.1rem !important;
+        text-align: center;
+    }
+    .adminButton{
+        width: 90% !important;
+    }
+}
