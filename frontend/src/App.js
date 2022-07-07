@@ -26,9 +26,11 @@ function App() {
 
   return (
     <Router>
+
       {loading ? <Loader/> : (
         <>
           <Header />
+          <Loader/>
           <Routes>
             <Route exact path="/" element={<Home timelines={user.timeline} skills={user.skills} />} />
             <Route exact path="/projects" element={<Projects projects={user.projects} />} />
