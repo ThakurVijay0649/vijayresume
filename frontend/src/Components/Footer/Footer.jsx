@@ -13,7 +13,7 @@ const Footer = () => {
             <p>Copyright &copy; 2022, All Rights Reserved</p>
             <div className="social-icons">
                 <a href="https://github.com/ThakurVijay0649" target="blank"><FaGithub /></a>
-                <a href="https://github.com/ThakurVijay0649" target="blank"><FaLinkedin /></a>
+                <a href="https://www.linkedin.com/in/vijay-thakur-984646223/" target="blank"><FaLinkedin /></a>
             </div>
         </footer>
     )

@@ -109,7 +109,21 @@
     .aboutInfo{
         flex-basis: 100%;
         text-align: center;
+        padding: 0 !important;
     }
+    .aboutInfo h1 {
+        font-size: 2.5rem;
+    }
+
+    .aboutInfo h2 {
+        font-size: 2rem;
+
+    }
+
+    .aboutInfo h3 {
+        font-size: 1.5rem;
+    }
+    
 }
 
 
