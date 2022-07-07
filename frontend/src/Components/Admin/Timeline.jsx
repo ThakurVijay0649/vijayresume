@@ -20,8 +20,9 @@ const Timeline = () => {
         await dispatch(addTimeline(title, description, date));
         dispatch(getUser());
     }
-    const deleteHandler = (id) => {
-        dispatch(deleteTimeline(id));
+    const deleteHandler = async (id) => {
+        await dispatch(deleteTimeline(id));
+        dispatch(getUser());
     }
 
     useEffect(() => {
