@@ -137,6 +137,7 @@
     .left p {
         font-size: 1rem !important;
         line-height: 40px !important;
+        padding: 0 7px !important;
     }
 
     .right {
