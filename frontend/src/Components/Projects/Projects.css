@@ -105,5 +105,7 @@
 
     .cardInfo a {
         width: 9rem !important;
+        font-size: 0.9rem !important;
+        padding: 0.7rem !important;
     }
 }
