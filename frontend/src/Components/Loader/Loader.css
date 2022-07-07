@@ -11,8 +11,10 @@
     height: 200px;
     border-radius: 50%;
     border: 10px solid white;
-    border-top: 10px solid rgb(210, 43, 43);
-    border-bottom: 10px solid rgb(78, 42, 42);
+    border-top: 10px solid #040d21;
+    ;
+    border-bottom: 10px solid #040d21;
+    ;
     animation: loading 1s linear infinite;
 }
 
