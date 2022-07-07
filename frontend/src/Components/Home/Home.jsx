@@ -14,7 +14,7 @@ const Home = ({ timelines, skills }) => {
                 <div className="left">
                     <h1>Hello! I'm Vijay Thakur</h1>
                     <h2>Welcome to My Portfolio Website</h2>
-                    <p>This is the porfolio website where I add and update My projects in Web development.</p>
+                    <p>Here You can see my projects that I have made in Web Development technologies like HTML, CSS, JavaScript, ReactJS, NodeJS, BootStrap, TailwandCSS etc.</p>
                     <Link to="/projects"><AiFillProject />Projects</Link>
                 </div>
                 <div className="right">
